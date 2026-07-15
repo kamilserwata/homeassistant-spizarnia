@@ -2,7 +2,6 @@
 
 from __future__ import annotations
 
-import asyncio
 from datetime import datetime, timedelta, timezone
 
 import pytest
@@ -27,7 +26,7 @@ def _rsp(manager):
 
 
 # ------------------------------------------------------------------ load/save
-def test_async_load_roundtrip(manager):
+async def test_async_load_roundtrip(manager):
     manager.create_room("Piwnica")
     saved = manager._data_to_save()
     hist = manager._history_to_save()
@@ -40,14 +39,14 @@ def test_async_load_roundtrip(manager):
     mgr2._data_store.data = saved
     mgr2._history_store.data = hist
     mgr2._listeners = []
-    asyncio.run(mgr2.async_load())
+    await mgr2.async_load()
     assert any(r.name == "Piwnica" for r in mgr2.rooms.values())
     assert not mgr2.is_empty()
 
 
-def test_async_save_now(manager):
+async def test_async_save_now(manager):
     manager.create_room("R")
-    asyncio.run(manager.async_save_now())
+    await manager.async_save_now()
     assert manager._data_store.data is not None
     assert manager._history_store.data is not None
 
