@@ -1,8 +1,10 @@
-"""Fixtures for HA integration tests (loaded only in this subdirectory).
+"""Fixtures for HA integration tests.
 
-These pull in pytest-homeassistant-custom-component, which sets the HA event
-loop policy. They run in CI (Linux); on Windows the proactor loop clashes with
-the plugin's socket guard, so run these with the plugin active on Linux.
+``pytest-homeassistant-custom-component`` auto-loads via its entry point (which is
+why the pure store tests need ``-p no:homeassistant`` on Windows), so it must NOT be
+listed in ``pytest_plugins`` here — recent pytest forbids that in a sub-conftest, and
+it would be redundant anyway. These tests run in CI (Linux); the ``hass`` fixture
+can't start on Windows because of the proactor-loop socket guard.
 """
 
 from __future__ import annotations
@@ -11,8 +13,6 @@ import pytest
 from pytest_homeassistant_custom_component.common import MockConfigEntry
 
 from custom_components.spizarnia.const import DOMAIN
-
-pytest_plugins = "pytest_homeassistant_custom_component"
 
 
 @pytest.fixture(autouse=True)
