@@ -153,16 +153,26 @@ def test_fefo_order_and_consume(manager):
     product = manager.create_product(name="P", category="other")
     # Three batches: fresh, oldest-date, opened.
     manager.add_item(
-        product_id=product.id, shelf_id=shelf.id, quantity=2, unit="szt",
+        product_id=product.id,
+        shelf_id=shelf.id,
+        quantity=2,
+        unit="szt",
         best_before=_future(400),
     )
     older = manager.add_item(
-        product_id=product.id, shelf_id=shelf.id, quantity=2, unit="szt",
+        product_id=product.id,
+        shelf_id=shelf.id,
+        quantity=2,
+        unit="szt",
         best_before=_future(30),
     )
     opened = manager.add_item(
-        product_id=product.id, shelf_id=shelf.id, quantity=1, unit="szt",
-        best_before=_future(200), opened=True,
+        product_id=product.id,
+        shelf_id=shelf.id,
+        quantity=1,
+        unit="szt",
+        best_before=_future(200),
+        opened=True,
     )
     order = manager.fefo_order(product.id)
     assert order[0].id == opened.id  # opened first
@@ -189,8 +199,12 @@ def test_normalize_best_before():
 def test_compute_status():
     today = date(2026, 7, 15)
     mk = lambda bb, prec="day": Item(  # noqa: E731
-        product_id="p", shelf_id="s", quantity=1, unit="szt",
-        best_before=bb, best_before_precision=prec,
+        product_id="p",
+        shelf_id="s",
+        quantity=1,
+        unit="szt",
+        best_before=bb,
+        best_before_precision=prec,
     )
     assert compute_status(mk("2026-07-10"), today, 30)[0] == STATUS_EXPIRED
     assert compute_status(mk("2026-07-30"), today, 30)[0] == STATUS_EXPIRING_SOON
@@ -205,11 +219,17 @@ def test_status_filter_list(manager):
     shelf = manager.create_shelf(room.id, "S")
     product = manager.create_product(name="P", category="other")
     manager.add_item(
-        product_id=product.id, shelf_id=shelf.id, quantity=1, unit="szt",
+        product_id=product.id,
+        shelf_id=shelf.id,
+        quantity=1,
+        unit="szt",
         best_before=_future(-1),
     )
     manager.add_item(
-        product_id=product.id, shelf_id=shelf.id, quantity=1, unit="szt",
+        product_id=product.id,
+        shelf_id=shelf.id,
+        quantity=1,
+        unit="szt",
         best_before=_future(400),
     )
     assert len(manager.list_items(status=STATUS_EXPIRED)) == 1
@@ -265,9 +285,7 @@ def test_seed_catalog(manager):
 def test_stats_and_low_stock(manager):
     room = manager.create_room("R")
     shelf = manager.create_shelf(room.id, "S")
-    product = manager.create_product(
-        name="P", category="other", min_stock=5
-    )
+    product = manager.create_product(name="P", category="other", min_stock=5)
     manager.add_item(product_id=product.id, shelf_id=shelf.id, quantity=2, unit="szt")
     stats = manager.stats()
     assert stats["total_items"] == 1
@@ -287,8 +305,12 @@ def test_serialization_roundtrip(manager):
     shelf = manager.create_shelf(room.id, "Górna")
     product = manager.create_product(name="Dżem", category="preserves_sweet")
     manager.add_item(
-        product_id=product.id, shelf_id=shelf.id, quantity=2, unit="słoik",
-        best_before="2027-06", best_before_precision="month",
+        product_id=product.id,
+        shelf_id=shelf.id,
+        quantity=2,
+        unit="słoik",
+        best_before="2027-06",
+        best_before_precision="month",
     )
     saved = manager._data_to_save()
 

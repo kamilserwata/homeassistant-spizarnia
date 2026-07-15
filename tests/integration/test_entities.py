@@ -19,11 +19,17 @@ async def test_sensors_reflect_state(hass, init_integration):
     shelf = next(iter(manager.shelves.values()))
     product = next(iter(manager.products.values()))
     manager.add_item(
-        product_id=product.id, shelf_id=shelf.id, quantity=1, unit="szt",
+        product_id=product.id,
+        shelf_id=shelf.id,
+        quantity=1,
+        unit="szt",
         best_before=_future(-2),
     )
     manager.add_item(
-        product_id=product.id, shelf_id=shelf.id, quantity=1, unit="szt",
+        product_id=product.id,
+        shelf_id=shelf.id,
+        quantity=1,
+        unit="szt",
         best_before=_future(400),
     )
     await hass.async_block_till_done()
@@ -64,7 +70,10 @@ async def test_scheduler_fires_expired_event_once(hass, init_integration):
     shelf = next(iter(manager.shelves.values()))
     product = next(iter(manager.products.values()))
     manager.add_item(
-        product_id=product.id, shelf_id=shelf.id, quantity=1, unit="szt",
+        product_id=product.id,
+        shelf_id=shelf.id,
+        quantity=1,
+        unit="szt",
         best_before=_future(-1),
     )
 

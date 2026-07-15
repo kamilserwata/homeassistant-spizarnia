@@ -142,13 +142,9 @@ def test_add_item_validation(manager):
             product_id=product.id, shelf_id=shelf.id, quantity=0, unit="szt"
         )
     with pytest.raises(NotFoundError):
-        manager.add_item(
-            product_id="nope", shelf_id=shelf.id, quantity=1, unit="szt"
-        )
+        manager.add_item(product_id="nope", shelf_id=shelf.id, quantity=1, unit="szt")
     with pytest.raises(NotFoundError):
-        manager.add_item(
-            product_id=product.id, shelf_id="nope", quantity=1, unit="szt"
-        )
+        manager.add_item(product_id=product.id, shelf_id="nope", quantity=1, unit="szt")
 
 
 def test_update_item_fields_and_adjust_history(manager):
@@ -185,9 +181,7 @@ def test_delete_item_with_reason(manager):
 
 def test_list_items_room_filter_and_shelf_path(manager):
     room, shelf, product = _rsp(manager)
-    manager.add_item(
-        product_id=product.id, shelf_id=shelf.id, quantity=1, unit="szt"
-    )
+    manager.add_item(product_id=product.id, shelf_id=shelf.id, quantity=1, unit="szt")
     assert len(manager.list_items(room_id=room.id)) == 1
     assert len(manager.list_items(room_id="other")) == 0
     assert manager.shelf_path(shelf.id) == "R / S"
@@ -198,11 +192,17 @@ def test_list_items_room_filter_and_shelf_path(manager):
 def test_consume_fefo_cascade_overflow(manager):
     _, shelf, product = _rsp(manager)
     manager.add_item(
-        product_id=product.id, shelf_id=shelf.id, quantity=2, unit="szt",
+        product_id=product.id,
+        shelf_id=shelf.id,
+        quantity=2,
+        unit="szt",
         best_before=_future(10),
     )
     manager.add_item(
-        product_id=product.id, shelf_id=shelf.id, quantity=2, unit="szt",
+        product_id=product.id,
+        shelf_id=shelf.id,
+        quantity=2,
+        unit="szt",
         best_before=_future(100),
     )
     ops = manager.consume_fefo(product.id, 3)
@@ -214,9 +214,7 @@ def test_consume_fefo_cascade_overflow(manager):
 def test_history_filters(manager):
     room, shelf, product = _rsp(manager)
     p2 = manager.create_product(name="P2", category="other")
-    manager.add_item(
-        product_id=product.id, shelf_id=shelf.id, quantity=1, unit="szt"
-    )
+    manager.add_item(product_id=product.id, shelf_id=shelf.id, quantity=1, unit="szt")
     manager.add_item(product_id=p2.id, shelf_id=shelf.id, quantity=1, unit="szt")
     by_type, _ = manager.list_history(type="add")
     assert all(e.type == "add" for e in by_type)
@@ -231,11 +229,17 @@ def test_history_filters(manager):
 def test_sort_items_status_order(manager):
     _, shelf, product = _rsp(manager)
     ok = manager.add_item(
-        product_id=product.id, shelf_id=shelf.id, quantity=1, unit="szt",
+        product_id=product.id,
+        shelf_id=shelf.id,
+        quantity=1,
+        unit="szt",
         best_before=_future(400),
     )
     expired = manager.add_item(
-        product_id=product.id, shelf_id=shelf.id, quantity=1, unit="szt",
+        product_id=product.id,
+        shelf_id=shelf.id,
+        quantity=1,
+        unit="szt",
         best_before=_future(-5),
     )
     ordered = manager.sort_items(manager.list_items(shelf_id=shelf.id))
@@ -245,9 +249,7 @@ def test_sort_items_status_order(manager):
 
 def test_stats_by_room_and_category(manager):
     room, shelf, product = _rsp(manager)
-    manager.add_item(
-        product_id=product.id, shelf_id=shelf.id, quantity=2, unit="szt"
-    )
+    manager.add_item(product_id=product.id, shelf_id=shelf.id, quantity=2, unit="szt")
     stats = manager.stats()
     assert stats["by_room"].get(room.id) == 1
     assert stats["by_category"].get("other") == 1

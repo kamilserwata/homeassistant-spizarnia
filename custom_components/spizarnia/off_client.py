@@ -56,9 +56,7 @@ class OFFClient:
         self.locale = locale
         self.images_path = images_path
         self.last_error = False
-        self._user_agent = (
-            f"Spizarnia-HA/{version} (+https://github.com/kamilserwata/homeassistant-spizarnia)"
-        )
+        self._user_agent = f"Spizarnia-HA/{version} (+https://github.com/kamilserwata/homeassistant-spizarnia)"
         self._cache: dict[str, tuple[float, dict | None]] = {}
 
     def update_options(self, *, enabled: bool, locale: str) -> None:

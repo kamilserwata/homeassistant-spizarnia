@@ -35,24 +35,16 @@ async def test_lookup_found(hass, aioclient_mock):
 
 
 async def test_lookup_not_found_falls_back_to_world(hass, aioclient_mock):
-    aioclient_mock.get(
-        "https://pl.openfoodfacts.org/api/v2/product/999", status=404
-    )
-    aioclient_mock.get(
-        "https://world.openfoodfacts.org/api/v2/product/999", status=404
-    )
+    aioclient_mock.get("https://pl.openfoodfacts.org/api/v2/product/999", status=404)
+    aioclient_mock.get("https://world.openfoodfacts.org/api/v2/product/999", status=404)
     client = OFFClient(hass, "1.0.0", enabled=True, locale="pl")
     assert await client.lookup("999") is None
     assert client.last_error is False
 
 
 async def test_lookup_server_error_sets_flag(hass, aioclient_mock):
-    aioclient_mock.get(
-        "https://pl.openfoodfacts.org/api/v2/product/500", status=502
-    )
-    aioclient_mock.get(
-        "https://world.openfoodfacts.org/api/v2/product/500", status=502
-    )
+    aioclient_mock.get("https://pl.openfoodfacts.org/api/v2/product/500", status=502)
+    aioclient_mock.get("https://world.openfoodfacts.org/api/v2/product/500", status=502)
     client = OFFClient(hass, "1.0.0", enabled=True, locale="pl")
     assert await client.lookup("500") is None
     assert client.last_error is True
