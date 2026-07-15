@@ -1,0 +1,8 @@
+# Minimal Home Assistant dev configuration for Spiżarnia.
+# The custom component is mounted at /config/custom_components by docker-compose.
+default_config:
+
+logger:
+  default: info
+  logs:
+    custom_components.spizarnia: debug

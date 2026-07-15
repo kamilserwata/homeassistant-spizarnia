@@ -1,0 +1,1820 @@
+{
+  "products": [
+    {
+      "name_pl": "Dżem truskawkowy",
+      "name_en": "Strawberry jam",
+      "category": "preserves_sweet",
+      "emoji": "🍓",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Dżem malinowy",
+      "name_en": "Raspberry jam",
+      "category": "preserves_sweet",
+      "emoji": "🫐",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Dżem wiśniowy",
+      "name_en": "Cherry jam",
+      "category": "preserves_sweet",
+      "emoji": "🍒",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Dżem morelowy",
+      "name_en": "Apricot jam",
+      "category": "preserves_sweet",
+      "emoji": "🍑",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Dżem brzoskwiniowy",
+      "name_en": "Peach jam",
+      "category": "preserves_sweet",
+      "emoji": "🍑",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Dżem porzeczkowy",
+      "name_en": "Currant jam",
+      "category": "preserves_sweet",
+      "emoji": "🍇",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Dżem z czarnej porzeczki",
+      "name_en": "Blackcurrant jam",
+      "category": "preserves_sweet",
+      "emoji": "🍇",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Powidła śliwkowe",
+      "name_en": "Plum butter",
+      "category": "preserves_sweet",
+      "emoji": "🟣",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Konfitura z wiśni",
+      "name_en": "Cherry preserve",
+      "category": "preserves_sweet",
+      "emoji": "🍒",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Konfitura z truskawek",
+      "name_en": "Strawberry preserve",
+      "category": "preserves_sweet",
+      "emoji": "🍓",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Marmolada pomarańczowa",
+      "name_en": "Orange marmalade",
+      "category": "preserves_sweet",
+      "emoji": "🍊",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Marmolada wieloowocowa",
+      "name_en": "Mixed fruit marmalade",
+      "category": "preserves_sweet",
+      "emoji": "🍎",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Mus jabłkowy",
+      "name_en": "Apple sauce",
+      "category": "preserves_sweet",
+      "emoji": "🍎",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Musli z rabarbaru",
+      "name_en": "Rhubarb compote spread",
+      "category": "preserves_sweet",
+      "emoji": "🌱",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Konfitura z czarnego bzu",
+      "name_en": "Elderberry preserve",
+      "category": "preserves_sweet",
+      "emoji": "🫐",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Dżem z jeżyn",
+      "name_en": "Blackberry jam",
+      "category": "preserves_sweet",
+      "emoji": "🫐",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Dżem z agrestu",
+      "name_en": "Gooseberry jam",
+      "category": "preserves_sweet",
+      "emoji": "🟢",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Prażone jabłka",
+      "name_en": "Roasted apples",
+      "category": "preserves_sweet",
+      "emoji": "🍎",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Kremówka orzechowa",
+      "name_en": "Peanut butter",
+      "category": "preserves_sweet",
+      "emoji": "🥜",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 270
+    },
+    {
+      "name_pl": "Krem czekoladowo-orzechowy",
+      "name_en": "Chocolate hazelnut spread",
+      "category": "preserves_sweet",
+      "emoji": "🍫",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 270
+    },
+    {
+      "name_pl": "Ogórki kiszone",
+      "name_en": "Fermented cucumbers",
+      "category": "preserves_savory",
+      "emoji": "🥒",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Ogórki konserwowe",
+      "name_en": "Pickled cucumbers",
+      "category": "preserves_savory",
+      "emoji": "🥒",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Kapusta kiszona",
+      "name_en": "Sauerkraut",
+      "category": "preserves_savory",
+      "emoji": "🥬",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Grzybki marynowane",
+      "name_en": "Marinated mushrooms",
+      "category": "preserves_savory",
+      "emoji": "🍄",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Papryka konserwowa",
+      "name_en": "Pickled peppers",
+      "category": "preserves_savory",
+      "emoji": "🫑",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Ćwikła z chrzanem",
+      "name_en": "Beetroot with horseradish",
+      "category": "preserves_savory",
+      "emoji": "🟣",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Chrzan tarty",
+      "name_en": "Grated horseradish",
+      "category": "preserves_savory",
+      "emoji": "🌱",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Buraczki zasmażane",
+      "name_en": "Braised beetroots",
+      "category": "preserves_savory",
+      "emoji": "🟣",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Sałatka szwedzka",
+      "name_en": "Swedish salad",
+      "category": "preserves_savory",
+      "emoji": "🥗",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Pieczarki marynowane",
+      "name_en": "Marinated champignons",
+      "category": "preserves_savory",
+      "emoji": "🍄",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Papryka pieczona",
+      "name_en": "Roasted peppers",
+      "category": "preserves_savory",
+      "emoji": "🫑",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Fasolka po bretońsku",
+      "name_en": "Beans in tomato sauce",
+      "category": "preserves_savory",
+      "emoji": "🫘",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Leczo warzywne",
+      "name_en": "Vegetable lecho",
+      "category": "preserves_savory",
+      "emoji": "🍅",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Sałatka wielowarzywna",
+      "name_en": "Mixed vegetable salad",
+      "category": "preserves_savory",
+      "emoji": "🥗",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Pomidory suszone w oleju",
+      "name_en": "Sun-dried tomatoes in oil",
+      "category": "preserves_savory",
+      "emoji": "🍅",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Oliwki zielone",
+      "name_en": "Green olives",
+      "category": "preserves_savory",
+      "emoji": "🫒",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Oliwki czarne",
+      "name_en": "Black olives",
+      "category": "preserves_savory",
+      "emoji": "🫒",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Kapary",
+      "name_en": "Capers",
+      "category": "preserves_savory",
+      "emoji": "🟢",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Cebulka marynowana",
+      "name_en": "Pickled onions",
+      "category": "preserves_savory",
+      "emoji": "🧅",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Pikle mieszane",
+      "name_en": "Mixed pickles",
+      "category": "preserves_savory",
+      "emoji": "🥒",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Kompot wiśniowy",
+      "name_en": "Cherry compote",
+      "category": "compotes_juices",
+      "emoji": "🍒",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Kompot truskawkowy",
+      "name_en": "Strawberry compote",
+      "category": "compotes_juices",
+      "emoji": "🍓",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Kompot z jabłek",
+      "name_en": "Apple compote",
+      "category": "compotes_juices",
+      "emoji": "🍎",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Kompot wieloowocowy",
+      "name_en": "Mixed fruit compote",
+      "category": "compotes_juices",
+      "emoji": "🍑",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Sok malinowy",
+      "name_en": "Raspberry juice",
+      "category": "compotes_juices",
+      "emoji": "🫐",
+      "default_unit": "butelka",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Sok jabłkowy tłoczony",
+      "name_en": "Pressed apple juice",
+      "category": "compotes_juices",
+      "emoji": "🍎",
+      "default_unit": "butelka",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Sok z czarnej porzeczki",
+      "name_en": "Blackcurrant juice",
+      "category": "compotes_juices",
+      "emoji": "🍇",
+      "default_unit": "butelka",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Sok z aronii",
+      "name_en": "Chokeberry juice",
+      "category": "compotes_juices",
+      "emoji": "🫐",
+      "default_unit": "butelka",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Sok z buraka",
+      "name_en": "Beetroot juice",
+      "category": "compotes_juices",
+      "emoji": "🟣",
+      "default_unit": "butelka",
+      "default_shelf_life_days": 180
+    },
+    {
+      "name_pl": "Sok z marchwi",
+      "name_en": "Carrot juice",
+      "category": "compotes_juices",
+      "emoji": "🥕",
+      "default_unit": "butelka",
+      "default_shelf_life_days": 180
+    },
+    {
+      "name_pl": "Sok pomidorowy",
+      "name_en": "Tomato juice",
+      "category": "compotes_juices",
+      "emoji": "🍅",
+      "default_unit": "butelka",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Sok wiśniowy",
+      "name_en": "Cherry juice",
+      "category": "compotes_juices",
+      "emoji": "🍒",
+      "default_unit": "butelka",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Miód lipowy",
+      "name_en": "Linden honey",
+      "category": "honey_syrups",
+      "emoji": "🍯",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 1095
+    },
+    {
+      "name_pl": "Miód wielokwiatowy",
+      "name_en": "Multiflower honey",
+      "category": "honey_syrups",
+      "emoji": "🍯",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 1095
+    },
+    {
+      "name_pl": "Miód gryczany",
+      "name_en": "Buckwheat honey",
+      "category": "honey_syrups",
+      "emoji": "🍯",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 1095
+    },
+    {
+      "name_pl": "Miód rzepakowy",
+      "name_en": "Rapeseed honey",
+      "category": "honey_syrups",
+      "emoji": "🍯",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 1095
+    },
+    {
+      "name_pl": "Miód spadziowy",
+      "name_en": "Honeydew honey",
+      "category": "honey_syrups",
+      "emoji": "🍯",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 1095
+    },
+    {
+      "name_pl": "Miód akacjowy",
+      "name_en": "Acacia honey",
+      "category": "honey_syrups",
+      "emoji": "🍯",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 1095
+    },
+    {
+      "name_pl": "Syrop z malin",
+      "name_en": "Raspberry syrup",
+      "category": "honey_syrups",
+      "emoji": "🫐",
+      "default_unit": "butelka",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Syrop z czarnego bzu",
+      "name_en": "Elderflower syrup",
+      "category": "honey_syrups",
+      "emoji": "🌼",
+      "default_unit": "butelka",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Syrop z cebuli",
+      "name_en": "Onion syrup",
+      "category": "honey_syrups",
+      "emoji": "🧅",
+      "default_unit": "butelka",
+      "default_shelf_life_days": 180
+    },
+    {
+      "name_pl": "Syrop klonowy",
+      "name_en": "Maple syrup",
+      "category": "honey_syrups",
+      "emoji": "🍁",
+      "default_unit": "butelka",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Syrop z mniszka",
+      "name_en": "Dandelion syrup",
+      "category": "honey_syrups",
+      "emoji": "🌼",
+      "default_unit": "butelka",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Melasa",
+      "name_en": "Molasses",
+      "category": "honey_syrups",
+      "emoji": "🟤",
+      "default_unit": "butelka",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Konserwa - szprot w oleju",
+      "name_en": "Canned sprats in oil",
+      "category": "canned",
+      "emoji": "🐟",
+      "default_unit": "puszka",
+      "default_shelf_life_days": 1095
+    },
+    {
+      "name_pl": "Tuńczyk w oleju",
+      "name_en": "Tuna in oil",
+      "category": "canned",
+      "emoji": "🐟",
+      "default_unit": "puszka",
+      "default_shelf_life_days": 1095
+    },
+    {
+      "name_pl": "Tuńczyk w sosie własnym",
+      "name_en": "Tuna in brine",
+      "category": "canned",
+      "emoji": "🐟",
+      "default_unit": "puszka",
+      "default_shelf_life_days": 1095
+    },
+    {
+      "name_pl": "Makrela w pomidorach",
+      "name_en": "Mackerel in tomato sauce",
+      "category": "canned",
+      "emoji": "🐟",
+      "default_unit": "puszka",
+      "default_shelf_life_days": 1095
+    },
+    {
+      "name_pl": "Sardynki w oleju",
+      "name_en": "Sardines in oil",
+      "category": "canned",
+      "emoji": "🐟",
+      "default_unit": "puszka",
+      "default_shelf_life_days": 1095
+    },
+    {
+      "name_pl": "Śledź w oleju",
+      "name_en": "Herring in oil",
+      "category": "canned",
+      "emoji": "🐟",
+      "default_unit": "puszka",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Pasztet drobiowy",
+      "name_en": "Poultry pate",
+      "category": "canned",
+      "emoji": "🥫",
+      "default_unit": "puszka",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Mielonka wieprzowa",
+      "name_en": "Pork luncheon meat",
+      "category": "canned",
+      "emoji": "🥫",
+      "default_unit": "puszka",
+      "default_shelf_life_days": 1095
+    },
+    {
+      "name_pl": "Gulasz angielski",
+      "name_en": "Meat stew",
+      "category": "canned",
+      "emoji": "🥫",
+      "default_unit": "puszka",
+      "default_shelf_life_days": 1095
+    },
+    {
+      "name_pl": "Groszek konserwowy",
+      "name_en": "Canned peas",
+      "category": "canned",
+      "emoji": "🟢",
+      "default_unit": "puszka",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Kukurydza konserwowa",
+      "name_en": "Canned corn",
+      "category": "canned",
+      "emoji": "🌽",
+      "default_unit": "puszka",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Fasola czerwona",
+      "name_en": "Red kidney beans",
+      "category": "canned",
+      "emoji": "🫘",
+      "default_unit": "puszka",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Fasola biała",
+      "name_en": "White beans",
+      "category": "canned",
+      "emoji": "🫘",
+      "default_unit": "puszka",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Ciecierzyca",
+      "name_en": "Chickpeas",
+      "category": "canned",
+      "emoji": "🫘",
+      "default_unit": "puszka",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Pomidory krojone",
+      "name_en": "Chopped tomatoes",
+      "category": "canned",
+      "emoji": "🍅",
+      "default_unit": "puszka",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Pieczarki krojone",
+      "name_en": "Sliced mushrooms",
+      "category": "canned",
+      "emoji": "🍄",
+      "default_unit": "puszka",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Ananas w puszce",
+      "name_en": "Canned pineapple",
+      "category": "canned",
+      "emoji": "🍍",
+      "default_unit": "puszka",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Brzoskwinie w puszce",
+      "name_en": "Canned peaches",
+      "category": "canned",
+      "emoji": "🍑",
+      "default_unit": "puszka",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Mleko kokosowe",
+      "name_en": "Coconut milk",
+      "category": "canned",
+      "emoji": "🥥",
+      "default_unit": "puszka",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Groszek z marchewką",
+      "name_en": "Peas and carrots",
+      "category": "canned",
+      "emoji": "🥕",
+      "default_unit": "puszka",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Mąka pszenna 500",
+      "name_en": "Wheat flour 500",
+      "category": "dry_goods",
+      "emoji": "🌾",
+      "default_unit": "kg",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Mąka żytnia",
+      "name_en": "Rye flour",
+      "category": "dry_goods",
+      "emoji": "🌾",
+      "default_unit": "kg",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Mąka krupczatka",
+      "name_en": "Coarse wheat flour",
+      "category": "dry_goods",
+      "emoji": "🌾",
+      "default_unit": "kg",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Mąka pełnoziarnista",
+      "name_en": "Wholegrain flour",
+      "category": "dry_goods",
+      "emoji": "🌾",
+      "default_unit": "kg",
+      "default_shelf_life_days": 270
+    },
+    {
+      "name_pl": "Mąka ziemniaczana",
+      "name_en": "Potato starch",
+      "category": "dry_goods",
+      "emoji": "🥔",
+      "default_unit": "kg",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Cukier biały",
+      "name_en": "White sugar",
+      "category": "dry_goods",
+      "emoji": "🧂",
+      "default_unit": "kg",
+      "default_shelf_life_days": null
+    },
+    {
+      "name_pl": "Cukier trzcinowy",
+      "name_en": "Cane sugar",
+      "category": "dry_goods",
+      "emoji": "🟤",
+      "default_unit": "kg",
+      "default_shelf_life_days": null
+    },
+    {
+      "name_pl": "Cukier puder",
+      "name_en": "Powdered sugar",
+      "category": "dry_goods",
+      "emoji": "❄️",
+      "default_unit": "opak",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Cukier waniliowy",
+      "name_en": "Vanilla sugar",
+      "category": "dry_goods",
+      "emoji": "🌿",
+      "default_unit": "opak",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Kasza gryczana",
+      "name_en": "Buckwheat groats",
+      "category": "dry_goods",
+      "emoji": "🌰",
+      "default_unit": "kg",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Kasza jaglana",
+      "name_en": "Millet groats",
+      "category": "dry_goods",
+      "emoji": "🟡",
+      "default_unit": "kg",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Kasza jęczmienna",
+      "name_en": "Barley groats",
+      "category": "dry_goods",
+      "emoji": "🌾",
+      "default_unit": "kg",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Kasza manna",
+      "name_en": "Semolina",
+      "category": "dry_goods",
+      "emoji": "⚪",
+      "default_unit": "kg",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Kasza kuskus",
+      "name_en": "Couscous",
+      "category": "dry_goods",
+      "emoji": "🟡",
+      "default_unit": "opak",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Ryż biały",
+      "name_en": "White rice",
+      "category": "dry_goods",
+      "emoji": "🍚",
+      "default_unit": "kg",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Ryż basmati",
+      "name_en": "Basmati rice",
+      "category": "dry_goods",
+      "emoji": "🍚",
+      "default_unit": "kg",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Ryż brązowy",
+      "name_en": "Brown rice",
+      "category": "dry_goods",
+      "emoji": "🍚",
+      "default_unit": "kg",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Makaron świderki",
+      "name_en": "Fusilli pasta",
+      "category": "dry_goods",
+      "emoji": "🍝",
+      "default_unit": "opak",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Makaron spaghetti",
+      "name_en": "Spaghetti",
+      "category": "dry_goods",
+      "emoji": "🍝",
+      "default_unit": "opak",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Makaron penne",
+      "name_en": "Penne pasta",
+      "category": "dry_goods",
+      "emoji": "🍝",
+      "default_unit": "opak",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Makaron nitki",
+      "name_en": "Vermicelli",
+      "category": "dry_goods",
+      "emoji": "🍜",
+      "default_unit": "opak",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Płatki owsiane",
+      "name_en": "Rolled oats",
+      "category": "dry_goods",
+      "emoji": "🌾",
+      "default_unit": "opak",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Płatki kukurydziane",
+      "name_en": "Cornflakes",
+      "category": "dry_goods",
+      "emoji": "🌽",
+      "default_unit": "opak",
+      "default_shelf_life_days": 270
+    },
+    {
+      "name_pl": "Soczewica czerwona",
+      "name_en": "Red lentils",
+      "category": "dry_goods",
+      "emoji": "🔴",
+      "default_unit": "opak",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Fasola sucha",
+      "name_en": "Dry beans",
+      "category": "dry_goods",
+      "emoji": "🫘",
+      "default_unit": "opak",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Groch łuskany",
+      "name_en": "Split peas",
+      "category": "dry_goods",
+      "emoji": "🟢",
+      "default_unit": "opak",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Bułka tarta",
+      "name_en": "Breadcrumbs",
+      "category": "dry_goods",
+      "emoji": "🍞",
+      "default_unit": "opak",
+      "default_shelf_life_days": 270
+    },
+    {
+      "name_pl": "Żelatyna",
+      "name_en": "Gelatin",
+      "category": "dry_goods",
+      "emoji": "🧊",
+      "default_unit": "opak",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Proszek do pieczenia",
+      "name_en": "Baking powder",
+      "category": "dry_goods",
+      "emoji": "🧁",
+      "default_unit": "opak",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Soda oczyszczona",
+      "name_en": "Baking soda",
+      "category": "dry_goods",
+      "emoji": "🧁",
+      "default_unit": "opak",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Drożdże suche",
+      "name_en": "Dry yeast",
+      "category": "dry_goods",
+      "emoji": "🍞",
+      "default_unit": "opak",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Budyń waniliowy",
+      "name_en": "Vanilla pudding mix",
+      "category": "dry_goods",
+      "emoji": "🍮",
+      "default_unit": "opak",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Kisiel truskawkowy",
+      "name_en": "Strawberry jelly mix",
+      "category": "dry_goods",
+      "emoji": "🍓",
+      "default_unit": "opak",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Sól kuchenna",
+      "name_en": "Table salt",
+      "category": "spices",
+      "emoji": "🧂",
+      "default_unit": "opak",
+      "default_shelf_life_days": null
+    },
+    {
+      "name_pl": "Pieprz czarny mielony",
+      "name_en": "Ground black pepper",
+      "category": "spices",
+      "emoji": "🌶️",
+      "default_unit": "opak",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Papryka słodka mielona",
+      "name_en": "Sweet paprika",
+      "category": "spices",
+      "emoji": "🌶️",
+      "default_unit": "opak",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Papryka ostra",
+      "name_en": "Hot paprika",
+      "category": "spices",
+      "emoji": "🌶️",
+      "default_unit": "opak",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Majeranek",
+      "name_en": "Marjoram",
+      "category": "spices",
+      "emoji": "🌿",
+      "default_unit": "opak",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Ziele angielskie",
+      "name_en": "Allspice",
+      "category": "spices",
+      "emoji": "🟤",
+      "default_unit": "opak",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Liść laurowy",
+      "name_en": "Bay leaf",
+      "category": "spices",
+      "emoji": "🍃",
+      "default_unit": "opak",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Cynamon",
+      "name_en": "Cinnamon",
+      "category": "spices",
+      "emoji": "🟤",
+      "default_unit": "opak",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Wanilia",
+      "name_en": "Vanilla",
+      "category": "spices",
+      "emoji": "🌿",
+      "default_unit": "opak",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Kminek",
+      "name_en": "Caraway",
+      "category": "spices",
+      "emoji": "🌿",
+      "default_unit": "opak",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Kmin rzymski",
+      "name_en": "Cumin",
+      "category": "spices",
+      "emoji": "🌿",
+      "default_unit": "opak",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Kurkuma",
+      "name_en": "Turmeric",
+      "category": "spices",
+      "emoji": "🟡",
+      "default_unit": "opak",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Imbir mielony",
+      "name_en": "Ground ginger",
+      "category": "spices",
+      "emoji": "🫚",
+      "default_unit": "opak",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Gałka muszkatołowa",
+      "name_en": "Nutmeg",
+      "category": "spices",
+      "emoji": "🟤",
+      "default_unit": "opak",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Oregano",
+      "name_en": "Oregano",
+      "category": "spices",
+      "emoji": "🌿",
+      "default_unit": "opak",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Bazylia suszona",
+      "name_en": "Dried basil",
+      "category": "spices",
+      "emoji": "🌿",
+      "default_unit": "opak",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Tymianek",
+      "name_en": "Thyme",
+      "category": "spices",
+      "emoji": "🌿",
+      "default_unit": "opak",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Czosnek granulowany",
+      "name_en": "Granulated garlic",
+      "category": "spices",
+      "emoji": "🧄",
+      "default_unit": "opak",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Curry",
+      "name_en": "Curry",
+      "category": "spices",
+      "emoji": "🟡",
+      "default_unit": "opak",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Przyprawa do kurczaka",
+      "name_en": "Chicken seasoning",
+      "category": "spices",
+      "emoji": "🍗",
+      "default_unit": "opak",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Vegeta",
+      "name_en": "Vegeta seasoning",
+      "category": "spices",
+      "emoji": "🥕",
+      "default_unit": "opak",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Gorczyca",
+      "name_en": "Mustard seeds",
+      "category": "spices",
+      "emoji": "🟡",
+      "default_unit": "opak",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Olej rzepakowy",
+      "name_en": "Rapeseed oil",
+      "category": "oils_fats",
+      "emoji": "🌻",
+      "default_unit": "butelka",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Oliwa z oliwek",
+      "name_en": "Olive oil",
+      "category": "oils_fats",
+      "emoji": "🫒",
+      "default_unit": "butelka",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Olej słonecznikowy",
+      "name_en": "Sunflower oil",
+      "category": "oils_fats",
+      "emoji": "🌻",
+      "default_unit": "butelka",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Olej lniany",
+      "name_en": "Linseed oil",
+      "category": "oils_fats",
+      "emoji": "🌾",
+      "default_unit": "butelka",
+      "default_shelf_life_days": 180
+    },
+    {
+      "name_pl": "Olej kokosowy",
+      "name_en": "Coconut oil",
+      "category": "oils_fats",
+      "emoji": "🥥",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Smalec",
+      "name_en": "Lard",
+      "category": "oils_fats",
+      "emoji": "🥓",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Masło klarowane",
+      "name_en": "Clarified butter",
+      "category": "oils_fats",
+      "emoji": "🧈",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Ocet spirytusowy",
+      "name_en": "Spirit vinegar",
+      "category": "oils_fats",
+      "emoji": "🧴",
+      "default_unit": "butelka",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Ocet jabłkowy",
+      "name_en": "Apple cider vinegar",
+      "category": "oils_fats",
+      "emoji": "🍎",
+      "default_unit": "butelka",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Ocet balsamiczny",
+      "name_en": "Balsamic vinegar",
+      "category": "oils_fats",
+      "emoji": "🍇",
+      "default_unit": "butelka",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Herbata czarna",
+      "name_en": "Black tea",
+      "category": "drinks",
+      "emoji": "🍵",
+      "default_unit": "opak",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Herbata zielona",
+      "name_en": "Green tea",
+      "category": "drinks",
+      "emoji": "🍵",
+      "default_unit": "opak",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Herbata owocowa",
+      "name_en": "Fruit tea",
+      "category": "drinks",
+      "emoji": "🫖",
+      "default_unit": "opak",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Herbata miętowa",
+      "name_en": "Mint tea",
+      "category": "drinks",
+      "emoji": "🌿",
+      "default_unit": "opak",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Kawa mielona",
+      "name_en": "Ground coffee",
+      "category": "drinks",
+      "emoji": "☕",
+      "default_unit": "opak",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Kawa ziarnista",
+      "name_en": "Coffee beans",
+      "category": "drinks",
+      "emoji": "☕",
+      "default_unit": "opak",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Kawa rozpuszczalna",
+      "name_en": "Instant coffee",
+      "category": "drinks",
+      "emoji": "☕",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Kakao",
+      "name_en": "Cocoa",
+      "category": "drinks",
+      "emoji": "🍫",
+      "default_unit": "opak",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Woda mineralna",
+      "name_en": "Mineral water",
+      "category": "drinks",
+      "emoji": "💧",
+      "default_unit": "butelka",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Woda gazowana",
+      "name_en": "Sparkling water",
+      "category": "drinks",
+      "emoji": "💧",
+      "default_unit": "butelka",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Sok pomarańczowy karton",
+      "name_en": "Orange juice carton",
+      "category": "drinks",
+      "emoji": "🍊",
+      "default_unit": "opak",
+      "default_shelf_life_days": 270
+    },
+    {
+      "name_pl": "Sok multiwitamina",
+      "name_en": "Multivitamin juice",
+      "category": "drinks",
+      "emoji": "🧃",
+      "default_unit": "opak",
+      "default_shelf_life_days": 270
+    },
+    {
+      "name_pl": "Napój imbirowy",
+      "name_en": "Ginger drink",
+      "category": "drinks",
+      "emoji": "🫚",
+      "default_unit": "butelka",
+      "default_shelf_life_days": 270
+    },
+    {
+      "name_pl": "Kompot z suszu",
+      "name_en": "Dried fruit compote",
+      "category": "drinks",
+      "emoji": "🍎",
+      "default_unit": "butelka",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Czekolada mleczna",
+      "name_en": "Milk chocolate",
+      "category": "sweets_snacks",
+      "emoji": "🍫",
+      "default_unit": "szt",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Czekolada gorzka",
+      "name_en": "Dark chocolate",
+      "category": "sweets_snacks",
+      "emoji": "🍫",
+      "default_unit": "szt",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Ciastka owsiane",
+      "name_en": "Oatmeal cookies",
+      "category": "sweets_snacks",
+      "emoji": "🍪",
+      "default_unit": "opak",
+      "default_shelf_life_days": 180
+    },
+    {
+      "name_pl": "Herbatniki",
+      "name_en": "Biscuits",
+      "category": "sweets_snacks",
+      "emoji": "🍪",
+      "default_unit": "opak",
+      "default_shelf_life_days": 270
+    },
+    {
+      "name_pl": "Wafelki",
+      "name_en": "Wafers",
+      "category": "sweets_snacks",
+      "emoji": "🧇",
+      "default_unit": "opak",
+      "default_shelf_life_days": 270
+    },
+    {
+      "name_pl": "Cukierki landrynki",
+      "name_en": "Hard candies",
+      "category": "sweets_snacks",
+      "emoji": "🍬",
+      "default_unit": "opak",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Żelki",
+      "name_en": "Gummy candies",
+      "category": "sweets_snacks",
+      "emoji": "🍬",
+      "default_unit": "opak",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Paluszki słone",
+      "name_en": "Salted sticks",
+      "category": "sweets_snacks",
+      "emoji": "🥨",
+      "default_unit": "opak",
+      "default_shelf_life_days": 270
+    },
+    {
+      "name_pl": "Chipsy ziemniaczane",
+      "name_en": "Potato chips",
+      "category": "sweets_snacks",
+      "emoji": "🥔",
+      "default_unit": "opak",
+      "default_shelf_life_days": 180
+    },
+    {
+      "name_pl": "Krakersy",
+      "name_en": "Crackers",
+      "category": "sweets_snacks",
+      "emoji": "🍘",
+      "default_unit": "opak",
+      "default_shelf_life_days": 270
+    },
+    {
+      "name_pl": "Orzechy włoskie",
+      "name_en": "Walnuts",
+      "category": "sweets_snacks",
+      "emoji": "🌰",
+      "default_unit": "opak",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Orzechy laskowe",
+      "name_en": "Hazelnuts",
+      "category": "sweets_snacks",
+      "emoji": "🌰",
+      "default_unit": "opak",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Migdały",
+      "name_en": "Almonds",
+      "category": "sweets_snacks",
+      "emoji": "🌰",
+      "default_unit": "opak",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Orzechy nerkowca",
+      "name_en": "Cashew nuts",
+      "category": "sweets_snacks",
+      "emoji": "🥜",
+      "default_unit": "opak",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Rodzynki",
+      "name_en": "Raisins",
+      "category": "sweets_snacks",
+      "emoji": "🍇",
+      "default_unit": "opak",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Żurawina suszona",
+      "name_en": "Dried cranberries",
+      "category": "sweets_snacks",
+      "emoji": "🔴",
+      "default_unit": "opak",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Morele suszone",
+      "name_en": "Dried apricots",
+      "category": "sweets_snacks",
+      "emoji": "🍑",
+      "default_unit": "opak",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Śliwki suszone",
+      "name_en": "Dried plums",
+      "category": "sweets_snacks",
+      "emoji": "🟣",
+      "default_unit": "opak",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Baton musli",
+      "name_en": "Muesli bar",
+      "category": "sweets_snacks",
+      "emoji": "🍫",
+      "default_unit": "szt",
+      "default_shelf_life_days": 270
+    },
+    {
+      "name_pl": "Popcorn do mikrofali",
+      "name_en": "Microwave popcorn",
+      "category": "sweets_snacks",
+      "emoji": "🍿",
+      "default_unit": "opak",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Mrożone truskawki",
+      "name_en": "Frozen strawberries",
+      "category": "frozen",
+      "emoji": "🍓",
+      "default_unit": "opak",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Mrożone maliny",
+      "name_en": "Frozen raspberries",
+      "category": "frozen",
+      "emoji": "🫐",
+      "default_unit": "opak",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Mrożony groszek",
+      "name_en": "Frozen peas",
+      "category": "frozen",
+      "emoji": "🟢",
+      "default_unit": "opak",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Mrożona fasolka szparagowa",
+      "name_en": "Frozen green beans",
+      "category": "frozen",
+      "emoji": "🫛",
+      "default_unit": "opak",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Mrożone warzywa mix",
+      "name_en": "Frozen mixed vegetables",
+      "category": "frozen",
+      "emoji": "🥕",
+      "default_unit": "opak",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Mrożony szpinak",
+      "name_en": "Frozen spinach",
+      "category": "frozen",
+      "emoji": "🥬",
+      "default_unit": "opak",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Mrożone brokuły",
+      "name_en": "Frozen broccoli",
+      "category": "frozen",
+      "emoji": "🥦",
+      "default_unit": "opak",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Mrożona pizza",
+      "name_en": "Frozen pizza",
+      "category": "frozen",
+      "emoji": "🍕",
+      "default_unit": "szt",
+      "default_shelf_life_days": 270
+    },
+    {
+      "name_pl": "Mrożone frytki",
+      "name_en": "Frozen fries",
+      "category": "frozen",
+      "emoji": "🍟",
+      "default_unit": "opak",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Mrożone pierogi",
+      "name_en": "Frozen dumplings",
+      "category": "frozen",
+      "emoji": "🥟",
+      "default_unit": "opak",
+      "default_shelf_life_days": 180
+    },
+    {
+      "name_pl": "Mrożona ryba - filet",
+      "name_en": "Frozen fish fillet",
+      "category": "frozen",
+      "emoji": "🐟",
+      "default_unit": "opak",
+      "default_shelf_life_days": 180
+    },
+    {
+      "name_pl": "Mrożone owoce leśne",
+      "name_en": "Frozen forest fruits",
+      "category": "frozen",
+      "emoji": "🫐",
+      "default_unit": "opak",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Lody waniliowe",
+      "name_en": "Vanilla ice cream",
+      "category": "frozen",
+      "emoji": "🍦",
+      "default_unit": "opak",
+      "default_shelf_life_days": 180
+    },
+    {
+      "name_pl": "Mrożona mieszanka na patelnię",
+      "name_en": "Frozen stir-fry mix",
+      "category": "frozen",
+      "emoji": "🍳",
+      "default_unit": "opak",
+      "default_shelf_life_days": 365
+    },
+    {
+      "name_pl": "Ręczniki papierowe",
+      "name_en": "Paper towels",
+      "category": "household",
+      "emoji": "🧻",
+      "default_unit": "opak",
+      "default_shelf_life_days": null
+    },
+    {
+      "name_pl": "Papier toaletowy",
+      "name_en": "Toilet paper",
+      "category": "household",
+      "emoji": "🧻",
+      "default_unit": "opak",
+      "default_shelf_life_days": null
+    },
+    {
+      "name_pl": "Płyn do naczyń",
+      "name_en": "Dish soap",
+      "category": "household",
+      "emoji": "🧴",
+      "default_unit": "butelka",
+      "default_shelf_life_days": null
+    },
+    {
+      "name_pl": "Worki na śmieci",
+      "name_en": "Garbage bags",
+      "category": "household",
+      "emoji": "🗑️",
+      "default_unit": "opak",
+      "default_shelf_life_days": null
+    },
+    {
+      "name_pl": "Folia spożywcza",
+      "name_en": "Cling film",
+      "category": "household",
+      "emoji": "🎞️",
+      "default_unit": "szt",
+      "default_shelf_life_days": null
+    },
+    {
+      "name_pl": "Folia aluminiowa",
+      "name_en": "Aluminium foil",
+      "category": "household",
+      "emoji": "🎞️",
+      "default_unit": "szt",
+      "default_shelf_life_days": null
+    },
+    {
+      "name_pl": "Papier do pieczenia",
+      "name_en": "Baking paper",
+      "category": "household",
+      "emoji": "📄",
+      "default_unit": "szt",
+      "default_shelf_life_days": null
+    },
+    {
+      "name_pl": "Płyn do prania",
+      "name_en": "Laundry detergent",
+      "category": "household",
+      "emoji": "🧴",
+      "default_unit": "butelka",
+      "default_shelf_life_days": null
+    },
+    {
+      "name_pl": "Proszek do prania",
+      "name_en": "Washing powder",
+      "category": "household",
+      "emoji": "🧼",
+      "default_unit": "opak",
+      "default_shelf_life_days": null
+    },
+    {
+      "name_pl": "Płyn do płukania",
+      "name_en": "Fabric softener",
+      "category": "household",
+      "emoji": "🧴",
+      "default_unit": "butelka",
+      "default_shelf_life_days": null
+    },
+    {
+      "name_pl": "Mydło w płynie",
+      "name_en": "Liquid soap",
+      "category": "household",
+      "emoji": "🧼",
+      "default_unit": "butelka",
+      "default_shelf_life_days": null
+    },
+    {
+      "name_pl": "Gąbki do naczyń",
+      "name_en": "Dish sponges",
+      "category": "household",
+      "emoji": "🧽",
+      "default_unit": "opak",
+      "default_shelf_life_days": null
+    },
+    {
+      "name_pl": "Zapałki",
+      "name_en": "Matches",
+      "category": "household",
+      "emoji": "🔥",
+      "default_unit": "opak",
+      "default_shelf_life_days": null
+    },
+    {
+      "name_pl": "Świece",
+      "name_en": "Candles",
+      "category": "household",
+      "emoji": "🕯️",
+      "default_unit": "szt",
+      "default_shelf_life_days": null
+    },
+    {
+      "name_pl": "Baterie AA",
+      "name_en": "AA batteries",
+      "category": "household",
+      "emoji": "🔋",
+      "default_unit": "opak",
+      "default_shelf_life_days": null
+    },
+    {
+      "name_pl": "Odświeżacz powietrza",
+      "name_en": "Air freshener",
+      "category": "household",
+      "emoji": "🌬️",
+      "default_unit": "szt",
+      "default_shelf_life_days": null
+    },
+    {
+      "name_pl": "Sól spirytusowa (spirytus)",
+      "name_en": "Spirit (ethanol)",
+      "category": "other",
+      "emoji": "🍶",
+      "default_unit": "butelka",
+      "default_shelf_life_days": null
+    },
+    {
+      "name_pl": "Nalewka wiśniowa",
+      "name_en": "Cherry liqueur",
+      "category": "other",
+      "emoji": "🍒",
+      "default_unit": "butelka",
+      "default_shelf_life_days": null
+    },
+    {
+      "name_pl": "Nalewka orzechowa",
+      "name_en": "Nut liqueur",
+      "category": "other",
+      "emoji": "🌰",
+      "default_unit": "butelka",
+      "default_shelf_life_days": null
+    },
+    {
+      "name_pl": "Wino domowe",
+      "name_en": "Homemade wine",
+      "category": "other",
+      "emoji": "🍷",
+      "default_unit": "butelka",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Koncentrat rosołowy",
+      "name_en": "Bouillon concentrate",
+      "category": "other",
+      "emoji": "🍲",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Kostki rosołowe",
+      "name_en": "Bouillon cubes",
+      "category": "other",
+      "emoji": "🧊",
+      "default_unit": "opak",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Musztarda",
+      "name_en": "Mustard",
+      "category": "other",
+      "emoji": "🟡",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Ketchup",
+      "name_en": "Ketchup",
+      "category": "other",
+      "emoji": "🍅",
+      "default_unit": "butelka",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Majonez",
+      "name_en": "Mayonnaise",
+      "category": "other",
+      "emoji": "🥚",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 270
+    },
+    {
+      "name_pl": "Sos sojowy",
+      "name_en": "Soy sauce",
+      "category": "other",
+      "emoji": "🫗",
+      "default_unit": "butelka",
+      "default_shelf_life_days": 730
+    },
+    {
+      "name_pl": "Przecier pomidorowy",
+      "name_en": "Tomato puree",
+      "category": "other",
+      "emoji": "🍅",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Passata pomidorowa",
+      "name_en": "Tomato passata",
+      "category": "other",
+      "emoji": "🍅",
+      "default_unit": "butelka",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Koncentrat pomidorowy",
+      "name_en": "Tomato concentrate",
+      "category": "other",
+      "emoji": "🍅",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 540
+    },
+    {
+      "name_pl": "Sos pesto",
+      "name_en": "Pesto sauce",
+      "category": "other",
+      "emoji": "🌿",
+      "default_unit": "słoik",
+      "default_shelf_life_days": 365
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+name: CI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+
+jobs:
+  backend:
+    name: Backend (ruff + pytest)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install ruff pytest pytest-homeassistant-custom-component
+      - name: Ruff check
+        run: ruff check custom_components/
+      - name: Ruff format check
+        run: ruff format --check custom_components/
+      - name: Pytest
+        run: pytest tests/ -q
+
+  frontend:
+    name: Frontend build (dist must be fresh)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install
+        run: npm ci
+        working-directory: frontend
+      - name: Typecheck
+        run: npm run typecheck
+        working-directory: frontend
+      - name: Build
+        run: npm run build
+        working-directory: frontend
+      - name: Verify committed dist is up to date
+        run: |
+          if [ -n "$(git status --porcelain custom_components/spizarnia/frontend_dist)" ]; then
+            echo "::error::frontend_dist is out of date — run 'npm run build' and commit."
+            git --no-pager diff --stat custom_components/spizarnia/frontend_dist
+            exit 1
+          fi
+
+  hassfest:
+    name: Hassfest
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: home-assistant/actions/hassfest@master
+
+  hacs:
+    name: HACS validation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: hacs/action@main
+        with:
+          category: integration

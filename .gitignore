@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node / frontend
+frontend/node_modules/
+frontend/.vite/
+frontend/*.tsbuildinfo
+# UWAGA: custom_components/spizarnia/frontend_dist/ jest CELOWO commitowany (HACS)
+
+# Home Assistant dev instance (dev/config to żywy config — commitujemy tylko szkielet)
+dev/config/.storage/
+dev/config/.cloud/
+dev/config/deps/
+dev/config/tts/
+dev/config/blueprints/
+dev/config/home-assistant.log*
+dev/config/home-assistant_v2.db*
+dev/config/.HA_VERSION
+dev/config/secrets.yaml
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Narzędzia lokalne
+.notlycoder/

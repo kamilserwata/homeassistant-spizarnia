@@ -1,0 +1,64 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Spiżarnia",
+        "description": "Set up Spiżarnia to manage your home food stock. No configuration is required — a starter catalog and an example room will be created."
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Spiżarnia is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Spiżarnia settings",
+        "data": {
+          "expiring_soon_days": "\"Expiring soon\" threshold (days)",
+          "off_enabled": "Look up products in Open Food Facts",
+          "off_locale": "Open Food Facts locale",
+          "history_retention_days": "History retention (days)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "expired": { "name": "Expired" },
+      "expiring_soon": { "name": "Expiring soon" },
+      "low_stock": { "name": "Low stock" },
+      "total_items": { "name": "Items" }
+    }
+  },
+  "services": {
+    "add_item": {
+      "name": "Add item",
+      "description": "Add a batch of a product to a shelf.",
+      "fields": {
+        "product": { "name": "Product", "description": "Product name, id or barcode." },
+        "quantity": { "name": "Quantity", "description": "Amount to add." },
+        "unit": { "name": "Unit", "description": "Unit of measure." },
+        "best_before": { "name": "Best before", "description": "Best-before date (YYYY-MM-DD)." },
+        "best_before_precision": { "name": "Date precision", "description": "day, month, year or none." },
+        "shelf_id": { "name": "Shelf", "description": "Target shelf id (defaults to last used)." }
+      }
+    },
+    "consume": {
+      "name": "Consume",
+      "description": "Consume a quantity of a product using FEFO (first expired, first out).",
+      "fields": {
+        "product": { "name": "Product", "description": "Product name, id or barcode." },
+        "quantity": { "name": "Quantity", "description": "Amount to consume." }
+      }
+    },
+    "move_item": {
+      "name": "Move item",
+      "description": "Move a batch to another shelf.",
+      "fields": {
+        "item_id": { "name": "Item", "description": "Item (batch) id." },
+        "shelf_id": { "name": "Shelf", "description": "Destination shelf id." }
+      }
+    }
+  }
+}

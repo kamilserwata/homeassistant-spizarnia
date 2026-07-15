@@ -1,0 +1,46 @@
+name: Bug report
+description: Report a problem with Spiżarnia
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear description of the bug and what you expected instead.
+    validations:
+      required: true
+  - type: input
+    id: ha-version
+    attributes:
+      label: Home Assistant version
+      placeholder: "2025.6.0"
+    validations:
+      required: true
+  - type: input
+    id: spizarnia-version
+    attributes:
+      label: Spiżarnia version
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: install-type
+    attributes:
+      label: Installation type
+      options:
+        - Home Assistant OS
+        - Supervised
+        - Container
+        - Core
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: From Settings → System → Logs. Remove any personal data.
+      render: shell
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
